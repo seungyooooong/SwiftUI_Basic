@@ -10,6 +10,7 @@
 		F65742772B2137A0001CE6EE /* ToggleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65742762B2137A0001CE6EE /* ToggleBasic.swift */; };
 		F65AB40C2B213AE0002AA044 /* PickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65AB40B2B213AE0002AA044 /* PickerBasic.swift */; };
 		F6612B412B22EEC400A8F215 /* ColorPickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6612B402B22EEC400A8F215 /* ColorPickerBasic.swift */; };
+		F6612B432B22F00600A8F215 /* DatePickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6612B422B22F00600A8F215 /* DatePickerBasic.swift */; };
 		F6BE9EB42B1F02CA000D8249 /* SwiftUI_BasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE9EB32B1F02CA000D8249 /* SwiftUI_BasicApp.swift */; };
 		F6BE9EB62B1F02CA000D8249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE9EB52B1F02CA000D8249 /* ContentView.swift */; };
 		F6BE9EB82B1F02CB000D8249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BE9EB72B1F02CB000D8249 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		F65742762B2137A0001CE6EE /* ToggleBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBasic.swift; sourceTree = "<group>"; };
 		F65AB40B2B213AE0002AA044 /* PickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBasic.swift; sourceTree = "<group>"; };
 		F6612B402B22EEC400A8F215 /* ColorPickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBasic.swift; sourceTree = "<group>"; };
+		F6612B422B22F00600A8F215 /* DatePickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerBasic.swift; sourceTree = "<group>"; };
 		F6BE9EB02B1F02CA000D8249 /* SwiftUI_Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Basic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6BE9EB32B1F02CA000D8249 /* SwiftUI_BasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicApp.swift; sourceTree = "<group>"; };
 		F6BE9EB52B1F02CA000D8249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		F6BE9EB22B1F02CA000D8249 /* SwiftUI_Basic */ = {
 			isa = PBXGroup;
 			children = (
+				F6612B422B22F00600A8F215 /* DatePickerBasic.swift */,
 				F6BE9EB32B1F02CA000D8249 /* SwiftUI_BasicApp.swift */,
 				F6612B402B22EEC400A8F215 /* ColorPickerBasic.swift */,
 				F6BE9EB52B1F02CA000D8249 /* ContentView.swift */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6612B432B22F00600A8F215 /* DatePickerBasic.swift in Sources */,
 				F65742772B2137A0001CE6EE /* ToggleBasic.swift in Sources */,
 				F65AB40C2B213AE0002AA044 /* PickerBasic.swift in Sources */,
 				F6612B412B22EEC400A8F215 /* ColorPickerBasic.swift in Sources */,
