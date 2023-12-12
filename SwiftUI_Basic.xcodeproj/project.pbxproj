@@ -53,9 +53,6 @@
 		F6BE9EA72B1F02CA000D8249 = {
 			isa = PBXGroup;
 			children = (
-				F6612B4A2B28580600A8F215 /* DarkModeBasic.swift */,
-				F6612B462B26D3C600A8F215 /* SliderBasic.swift */,
-				F6612B482B28556300A8F215 /* TabViewBasic.swift */,
 				F6BE9EB22B1F02CA000D8249 /* SwiftUI_Basic */,
 				F6BE9EB12B1F02CA000D8249 /* Products */,
 			);
@@ -72,6 +69,9 @@
 		F6BE9EB22B1F02CA000D8249 /* SwiftUI_Basic */ = {
 			isa = PBXGroup;
 			children = (
+				F6612B4A2B28580600A8F215 /* DarkModeBasic.swift */,
+				F6612B462B26D3C600A8F215 /* SliderBasic.swift */,
+				F6612B482B28556300A8F215 /* TabViewBasic.swift */,
 				F6612B422B22F00600A8F215 /* DatePickerBasic.swift */,
 				F6612B442B26D13000A8F215 /* StepperBasic.swift */,
 				F6BE9EB32B1F02CA000D8249 /* SwiftUI_BasicApp.swift */,
