@@ -13,6 +13,7 @@
 		F6612B432B22F00600A8F215 /* DatePickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6612B422B22F00600A8F215 /* DatePickerBasic.swift */; };
 		F6612B452B26D13000A8F215 /* StepperBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6612B442B26D13000A8F215 /* StepperBasic.swift */; };
 		F6612B472B26D3C600A8F215 /* SliderBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6612B462B26D3C600A8F215 /* SliderBasic.swift */; };
+		F6612B492B28556300A8F215 /* TabViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6612B482B28556300A8F215 /* TabViewBasic.swift */; };
 		F6BE9EB42B1F02CA000D8249 /* SwiftUI_BasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE9EB32B1F02CA000D8249 /* SwiftUI_BasicApp.swift */; };
 		F6BE9EB62B1F02CA000D8249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE9EB52B1F02CA000D8249 /* ContentView.swift */; };
 		F6BE9EB82B1F02CB000D8249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BE9EB72B1F02CB000D8249 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		F6612B422B22F00600A8F215 /* DatePickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerBasic.swift; sourceTree = "<group>"; };
 		F6612B442B26D13000A8F215 /* StepperBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperBasic.swift; sourceTree = "<group>"; };
 		F6612B462B26D3C600A8F215 /* SliderBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBasic.swift; sourceTree = "<group>"; };
+		F6612B482B28556300A8F215 /* TabViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBasic.swift; sourceTree = "<group>"; };
 		F6BE9EB02B1F02CA000D8249 /* SwiftUI_Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Basic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6BE9EB32B1F02CA000D8249 /* SwiftUI_BasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicApp.swift; sourceTree = "<group>"; };
 		F6BE9EB52B1F02CA000D8249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				F6612B462B26D3C600A8F215 /* SliderBasic.swift */,
+				F6612B482B28556300A8F215 /* TabViewBasic.swift */,
 				F6BE9EB22B1F02CA000D8249 /* SwiftUI_Basic */,
 				F6BE9EB12B1F02CA000D8249 /* Products */,
 			);
@@ -163,6 +166,7 @@
 				F6612B452B26D13000A8F215 /* StepperBasic.swift in Sources */,
 				F6612B472B26D3C600A8F215 /* SliderBasic.swift in Sources */,
 				F65AB40C2B213AE0002AA044 /* PickerBasic.swift in Sources */,
+				F6612B492B28556300A8F215 /* TabViewBasic.swift in Sources */,
 				F6612B412B22EEC400A8F215 /* ColorPickerBasic.swift in Sources */,
 				F6BE9EB62B1F02CA000D8249 /* ContentView.swift in Sources */,
 				F6E430982B1F034E00EF58FA /* TextFieldBasic.swift in Sources */,
