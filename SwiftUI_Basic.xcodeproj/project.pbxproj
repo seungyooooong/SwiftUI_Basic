@@ -16,6 +16,7 @@
 		F6612B492B28556300A8F215 /* TabViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6612B482B28556300A8F215 /* TabViewBasic.swift */; };
 		F6612B4B2B28580600A8F215 /* DarkModeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6612B4A2B28580600A8F215 /* DarkModeBasic.swift */; };
 		F6612B4E2B2993CF00A8F215 /* OnAppearBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6612B4D2B2993CF00A8F215 /* OnAppearBasic.swift */; };
+		F6612B502B29957700A8F215 /* OnTabGestureBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6612B4F2B29957700A8F215 /* OnTabGestureBasic.swift */; };
 		F6BE9EB42B1F02CA000D8249 /* SwiftUI_BasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE9EB32B1F02CA000D8249 /* SwiftUI_BasicApp.swift */; };
 		F6BE9EB62B1F02CA000D8249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE9EB52B1F02CA000D8249 /* ContentView.swift */; };
 		F6BE9EB82B1F02CB000D8249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BE9EB72B1F02CB000D8249 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		F6612B482B28556300A8F215 /* TabViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBasic.swift; sourceTree = "<group>"; };
 		F6612B4A2B28580600A8F215 /* DarkModeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBasic.swift; sourceTree = "<group>"; };
 		F6612B4D2B2993CF00A8F215 /* OnAppearBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBasic.swift; sourceTree = "<group>"; };
+		F6612B4F2B29957700A8F215 /* OnTabGestureBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTabGestureBasic.swift; sourceTree = "<group>"; };
 		F6BE9EB02B1F02CA000D8249 /* SwiftUI_Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Basic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6BE9EB32B1F02CA000D8249 /* SwiftUI_BasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicApp.swift; sourceTree = "<group>"; };
 		F6BE9EB52B1F02CA000D8249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		F6BE9EA72B1F02CA000D8249 = {
 			isa = PBXGroup;
 			children = (
+				F6612B4F2B29957700A8F215 /* OnTabGestureBasic.swift */,
 				F6BE9EB22B1F02CA000D8249 /* SwiftUI_Basic */,
 				F6BE9EB12B1F02CA000D8249 /* Products */,
 			);
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6612B502B29957700A8F215 /* OnTabGestureBasic.swift in Sources */,
 				F6612B432B22F00600A8F215 /* DatePickerBasic.swift in Sources */,
 				F65742772B2137A0001CE6EE /* ToggleBasic.swift in Sources */,
 				F6612B4E2B2993CF00A8F215 /* OnAppearBasic.swift in Sources */,
