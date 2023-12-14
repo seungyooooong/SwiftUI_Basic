@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F604FE132B2ABF8E0049F522 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE122B2ABF8E0049F522 /* UserModel.swift */; };
+		F604FE152B2AC0150049F522 /* UserModelBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE142B2AC0150049F522 /* UserModelBasicView.swift */; };
 		F65742772B2137A0001CE6EE /* ToggleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65742762B2137A0001CE6EE /* ToggleBasic.swift */; };
 		F65AB40C2B213AE0002AA044 /* PickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65AB40B2B213AE0002AA044 /* PickerBasic.swift */; };
 		F6612B412B22EEC400A8F215 /* ColorPickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6612B402B22EEC400A8F215 /* ColorPickerBasic.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F604FE122B2ABF8E0049F522 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		F604FE142B2AC0150049F522 /* UserModelBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelBasicView.swift; sourceTree = "<group>"; };
 		F65742762B2137A0001CE6EE /* ToggleBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBasic.swift; sourceTree = "<group>"; };
 		F65AB40B2B213AE0002AA044 /* PickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBasic.swift; sourceTree = "<group>"; };
 		F6612B402B22EEC400A8F215 /* ColorPickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBasic.swift; sourceTree = "<group>"; };
@@ -54,6 +58,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F604FE0E2B2ABF510049F522 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				F604FE112B2ABF7A0049F522 /* Model */,
+				F604FE102B2ABF690049F522 /* ViewModel */,
+				F604FE0F2B2ABF550049F522 /* View */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		F604FE0F2B2ABF550049F522 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F604FE142B2AC0150049F522 /* UserModelBasicView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F604FE102B2ABF690049F522 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F604FE112B2ABF7A0049F522 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F604FE122B2ABF8E0049F522 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F6BE9EA72B1F02CA000D8249 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +110,7 @@
 		F6BE9EB22B1F02CA000D8249 /* SwiftUI_Basic */ = {
 			isa = PBXGroup;
 			children = (
+				F604FE0E2B2ABF510049F522 /* MVVM */,
 				F6612B4F2B29957700A8F215 /* OnTabGestureBasic.swift */,
 				F6612B4A2B28580600A8F215 /* DarkModeBasic.swift */,
 				F6612B4D2B2993CF00A8F215 /* OnAppearBasic.swift */,
@@ -178,8 +216,10 @@
 				F6612B472B26D3C600A8F215 /* SliderBasic.swift in Sources */,
 				F65AB40C2B213AE0002AA044 /* PickerBasic.swift in Sources */,
 				F6612B4B2B28580600A8F215 /* DarkModeBasic.swift in Sources */,
+				F604FE132B2ABF8E0049F522 /* UserModel.swift in Sources */,
 				F6612B492B28556300A8F215 /* TabViewBasic.swift in Sources */,
 				F6612B412B22EEC400A8F215 /* ColorPickerBasic.swift in Sources */,
+				F604FE152B2AC0150049F522 /* UserModelBasicView.swift in Sources */,
 				F6BE9EB62B1F02CA000D8249 /* ContentView.swift in Sources */,
 				F6E430982B1F034E00EF58FA /* TextFieldBasic.swift in Sources */,
 				F6BE9EB42B1F02CA000D8249 /* SwiftUI_BasicApp.swift in Sources */,
