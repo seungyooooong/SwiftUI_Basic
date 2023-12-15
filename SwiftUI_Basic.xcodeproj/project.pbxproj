@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		F604FE132B2ABF8E0049F522 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE122B2ABF8E0049F522 /* UserModel.swift */; };
 		F604FE152B2AC0150049F522 /* UserModelBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE142B2AC0150049F522 /* UserModelBasicView.swift */; };
+		F604FE172B2AC2650049F522 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE162B2AC2650049F522 /* FruitModel.swift */; };
+		F604FE192B2AC2950049F522 /* FruitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE182B2AC2950049F522 /* FruitViewModel.swift */; };
+		F604FE1B2B2AC5110049F522 /* FruitBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE1A2B2AC5110049F522 /* FruitBasicView.swift */; };
 		F65742772B2137A0001CE6EE /* ToggleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65742762B2137A0001CE6EE /* ToggleBasic.swift */; };
 		F65AB40C2B213AE0002AA044 /* PickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65AB40B2B213AE0002AA044 /* PickerBasic.swift */; };
 		F6612B412B22EEC400A8F215 /* ColorPickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6612B402B22EEC400A8F215 /* ColorPickerBasic.swift */; };
@@ -29,6 +32,9 @@
 /* Begin PBXFileReference section */
 		F604FE122B2ABF8E0049F522 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		F604FE142B2AC0150049F522 /* UserModelBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelBasicView.swift; sourceTree = "<group>"; };
+		F604FE162B2AC2650049F522 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
+		F604FE182B2AC2950049F522 /* FruitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitViewModel.swift; sourceTree = "<group>"; };
+		F604FE1A2B2AC5110049F522 /* FruitBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitBasicView.swift; sourceTree = "<group>"; };
 		F65742762B2137A0001CE6EE /* ToggleBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBasic.swift; sourceTree = "<group>"; };
 		F65AB40B2B213AE0002AA044 /* PickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBasic.swift; sourceTree = "<group>"; };
 		F6612B402B22EEC400A8F215 /* ColorPickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBasic.swift; sourceTree = "<group>"; };
@@ -72,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				F604FE142B2AC0150049F522 /* UserModelBasicView.swift */,
+				F604FE1A2B2AC5110049F522 /* FruitBasicView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -79,6 +86,7 @@
 		F604FE102B2ABF690049F522 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F604FE182B2AC2950049F522 /* FruitViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -87,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				F604FE122B2ABF8E0049F522 /* UserModel.swift */,
+				F604FE162B2AC2650049F522 /* FruitModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -208,12 +217,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F604FE1B2B2AC5110049F522 /* FruitBasicView.swift in Sources */,
 				F6612B502B29957700A8F215 /* OnTabGestureBasic.swift in Sources */,
+				F604FE192B2AC2950049F522 /* FruitViewModel.swift in Sources */,
 				F6612B432B22F00600A8F215 /* DatePickerBasic.swift in Sources */,
 				F65742772B2137A0001CE6EE /* ToggleBasic.swift in Sources */,
 				F6612B4E2B2993CF00A8F215 /* OnAppearBasic.swift in Sources */,
 				F6612B452B26D13000A8F215 /* StepperBasic.swift in Sources */,
 				F6612B472B26D3C600A8F215 /* SliderBasic.swift in Sources */,
+				F604FE172B2AC2650049F522 /* FruitModel.swift in Sources */,
 				F65AB40C2B213AE0002AA044 /* PickerBasic.swift in Sources */,
 				F6612B4B2B28580600A8F215 /* DarkModeBasic.swift in Sources */,
 				F604FE132B2ABF8E0049F522 /* UserModel.swift in Sources */,
