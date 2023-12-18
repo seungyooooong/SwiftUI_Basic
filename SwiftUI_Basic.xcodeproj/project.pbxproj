@@ -12,6 +12,11 @@
 		F604FE172B2AC2650049F522 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE162B2AC2650049F522 /* FruitModel.swift */; };
 		F604FE192B2AC2950049F522 /* FruitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE182B2AC2950049F522 /* FruitViewModel.swift */; };
 		F604FE1B2B2AC5110049F522 /* FruitBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE1A2B2AC5110049F522 /* FruitBasicView.swift */; };
+		F604FE1D2B303D3B0049F522 /* IOSDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE1C2B303D3B0049F522 /* IOSDeviceModel.swift */; };
+		F604FE1F2B303D7B0049F522 /* IOSDeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE1E2B303D7B0049F522 /* IOSDeviceViewModel.swift */; };
+		F604FE212B303EA70049F522 /* IOSDeviceView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE202B303EA70049F522 /* IOSDeviceView1.swift */; };
+		F604FE232B303EFD0049F522 /* IOSDeviceView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE222B303EFD0049F522 /* IOSDeviceView2.swift */; };
+		F604FE252B30401C0049F522 /* IOSDeviceView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE242B30401C0049F522 /* IOSDeviceView3.swift */; };
 		F65742772B2137A0001CE6EE /* ToggleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65742762B2137A0001CE6EE /* ToggleBasic.swift */; };
 		F65AB40C2B213AE0002AA044 /* PickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65AB40B2B213AE0002AA044 /* PickerBasic.swift */; };
 		F6612B412B22EEC400A8F215 /* ColorPickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6612B402B22EEC400A8F215 /* ColorPickerBasic.swift */; };
@@ -35,6 +40,11 @@
 		F604FE162B2AC2650049F522 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		F604FE182B2AC2950049F522 /* FruitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitViewModel.swift; sourceTree = "<group>"; };
 		F604FE1A2B2AC5110049F522 /* FruitBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitBasicView.swift; sourceTree = "<group>"; };
+		F604FE1C2B303D3B0049F522 /* IOSDeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceModel.swift; sourceTree = "<group>"; };
+		F604FE1E2B303D7B0049F522 /* IOSDeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceViewModel.swift; sourceTree = "<group>"; };
+		F604FE202B303EA70049F522 /* IOSDeviceView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView1.swift; sourceTree = "<group>"; };
+		F604FE222B303EFD0049F522 /* IOSDeviceView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView2.swift; sourceTree = "<group>"; };
+		F604FE242B30401C0049F522 /* IOSDeviceView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView3.swift; sourceTree = "<group>"; };
 		F65742762B2137A0001CE6EE /* ToggleBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBasic.swift; sourceTree = "<group>"; };
 		F65AB40B2B213AE0002AA044 /* PickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBasic.swift; sourceTree = "<group>"; };
 		F6612B402B22EEC400A8F215 /* ColorPickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBasic.swift; sourceTree = "<group>"; };
@@ -79,6 +89,9 @@
 			children = (
 				F604FE142B2AC0150049F522 /* UserModelBasicView.swift */,
 				F604FE1A2B2AC5110049F522 /* FruitBasicView.swift */,
+				F604FE202B303EA70049F522 /* IOSDeviceView1.swift */,
+				F604FE222B303EFD0049F522 /* IOSDeviceView2.swift */,
+				F604FE242B30401C0049F522 /* IOSDeviceView3.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -87,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				F604FE182B2AC2950049F522 /* FruitViewModel.swift */,
+				F604FE1E2B303D7B0049F522 /* IOSDeviceViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -96,6 +110,7 @@
 			children = (
 				F604FE122B2ABF8E0049F522 /* UserModel.swift */,
 				F604FE162B2AC2650049F522 /* FruitModel.swift */,
+				F604FE1C2B303D3B0049F522 /* IOSDeviceModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -219,7 +234,10 @@
 			files = (
 				F604FE1B2B2AC5110049F522 /* FruitBasicView.swift in Sources */,
 				F6612B502B29957700A8F215 /* OnTabGestureBasic.swift in Sources */,
+				F604FE1F2B303D7B0049F522 /* IOSDeviceViewModel.swift in Sources */,
+				F604FE212B303EA70049F522 /* IOSDeviceView1.swift in Sources */,
 				F604FE192B2AC2950049F522 /* FruitViewModel.swift in Sources */,
+				F604FE1D2B303D3B0049F522 /* IOSDeviceModel.swift in Sources */,
 				F6612B432B22F00600A8F215 /* DatePickerBasic.swift in Sources */,
 				F65742772B2137A0001CE6EE /* ToggleBasic.swift in Sources */,
 				F6612B4E2B2993CF00A8F215 /* OnAppearBasic.swift in Sources */,
@@ -228,7 +246,9 @@
 				F604FE172B2AC2650049F522 /* FruitModel.swift in Sources */,
 				F65AB40C2B213AE0002AA044 /* PickerBasic.swift in Sources */,
 				F6612B4B2B28580600A8F215 /* DarkModeBasic.swift in Sources */,
+				F604FE252B30401C0049F522 /* IOSDeviceView3.swift in Sources */,
 				F604FE132B2ABF8E0049F522 /* UserModel.swift in Sources */,
+				F604FE232B303EFD0049F522 /* IOSDeviceView2.swift in Sources */,
 				F6612B492B28556300A8F215 /* TabViewBasic.swift in Sources */,
 				F6612B412B22EEC400A8F215 /* ColorPickerBasic.swift in Sources */,
 				F604FE152B2AC0150049F522 /* UserModelBasicView.swift in Sources */,
