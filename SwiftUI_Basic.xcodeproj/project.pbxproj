@@ -17,6 +17,7 @@
 		F604FE212B303EA70049F522 /* IOSDeviceView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE202B303EA70049F522 /* IOSDeviceView1.swift */; };
 		F604FE232B303EFD0049F522 /* IOSDeviceView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE222B303EFD0049F522 /* IOSDeviceView2.swift */; };
 		F604FE252B30401C0049F522 /* IOSDeviceView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE242B30401C0049F522 /* IOSDeviceView3.swift */; };
+		F604FE272B3044E60049F522 /* AppStorageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604FE262B3044E60049F522 /* AppStorageBasic.swift */; };
 		F65742772B2137A0001CE6EE /* ToggleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65742762B2137A0001CE6EE /* ToggleBasic.swift */; };
 		F65AB40C2B213AE0002AA044 /* PickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65AB40B2B213AE0002AA044 /* PickerBasic.swift */; };
 		F6612B412B22EEC400A8F215 /* ColorPickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6612B402B22EEC400A8F215 /* ColorPickerBasic.swift */; };
@@ -45,6 +46,7 @@
 		F604FE202B303EA70049F522 /* IOSDeviceView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView1.swift; sourceTree = "<group>"; };
 		F604FE222B303EFD0049F522 /* IOSDeviceView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView2.swift; sourceTree = "<group>"; };
 		F604FE242B30401C0049F522 /* IOSDeviceView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView3.swift; sourceTree = "<group>"; };
+		F604FE262B3044E60049F522 /* AppStorageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBasic.swift; sourceTree = "<group>"; };
 		F65742762B2137A0001CE6EE /* ToggleBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBasic.swift; sourceTree = "<group>"; };
 		F65AB40B2B213AE0002AA044 /* PickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBasic.swift; sourceTree = "<group>"; };
 		F6612B402B22EEC400A8F215 /* ColorPickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBasic.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			children = (
 				F604FE0E2B2ABF510049F522 /* MVVM */,
 				F6612B4F2B29957700A8F215 /* OnTabGestureBasic.swift */,
+				F604FE262B3044E60049F522 /* AppStorageBasic.swift */,
 				F6612B4A2B28580600A8F215 /* DarkModeBasic.swift */,
 				F6612B4D2B2993CF00A8F215 /* OnAppearBasic.swift */,
 				F6612B462B26D3C600A8F215 /* SliderBasic.swift */,
@@ -240,6 +243,7 @@
 				F604FE1D2B303D3B0049F522 /* IOSDeviceModel.swift in Sources */,
 				F6612B432B22F00600A8F215 /* DatePickerBasic.swift in Sources */,
 				F65742772B2137A0001CE6EE /* ToggleBasic.swift in Sources */,
+				F604FE272B3044E60049F522 /* AppStorageBasic.swift in Sources */,
 				F6612B4E2B2993CF00A8F215 /* OnAppearBasic.swift in Sources */,
 				F6612B452B26D13000A8F215 /* StepperBasic.swift in Sources */,
 				F6612B472B26D3C600A8F215 /* SliderBasic.swift in Sources */,
