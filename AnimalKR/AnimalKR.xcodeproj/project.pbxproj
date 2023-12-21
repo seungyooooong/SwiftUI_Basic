@@ -16,6 +16,11 @@
 		F696B8D62B32DC5D009F4967 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = F696B8D32B32DC5D009F4967 /* videos.json */; };
 		F696B8DA2B32DD4B009F4967 /* FrameExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F696B8D82B32DD4B009F4967 /* FrameExtenstion.swift */; };
 		F696B8DB2B32DD4B009F4967 /* JsonDecodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F696B8D92B32DD4B009F4967 /* JsonDecodeExtension.swift */; };
+		F6E611332B340AE10036FA23 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E611322B340AE10036FA23 /* SplashView.swift */; };
+		F6E611352B340B340036FA23 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E611342B340B340036FA23 /* HomeView.swift */; };
+		F6E611372B340D380036FA23 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E611362B340D380036FA23 /* VideoView.swift */; };
+		F6E611392B340D410036FA23 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E611382B340D410036FA23 /* GalleryView.swift */; };
+		F6E6113B2B340D4B0036FA23 /* AppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E6113A2B340D4B0036FA23 /* AppInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		F696B8D32B32DC5D009F4967 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 		F696B8D82B32DD4B009F4967 /* FrameExtenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameExtenstion.swift; sourceTree = "<group>"; };
 		F696B8D92B32DD4B009F4967 /* JsonDecodeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonDecodeExtension.swift; sourceTree = "<group>"; };
+		F6E611322B340AE10036FA23 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		F6E611342B340B340036FA23 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F6E611362B340D380036FA23 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		F6E611382B340D410036FA23 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		F6E6113A2B340D4B0036FA23 /* AppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				F604FE342B3279B10049F522 /* AnimalKRApp.swift */,
+				F6E611322B340AE10036FA23 /* SplashView.swift */,
+				F6E611342B340B340036FA23 /* HomeView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -136,6 +148,7 @@
 		F696B8CD2B32DC27009F4967 /* AppInfo */ = {
 			isa = PBXGroup;
 			children = (
+				F6E6113A2B340D4B0036FA23 /* AppInfoView.swift */,
 			);
 			path = AppInfo;
 			sourceTree = "<group>";
@@ -143,6 +156,7 @@
 		F696B8CE2B32DC30009F4967 /* GalleryView */ = {
 			isa = PBXGroup;
 			children = (
+				F6E611382B340D410036FA23 /* GalleryView.swift */,
 			);
 			path = GalleryView;
 			sourceTree = "<group>";
@@ -150,6 +164,7 @@
 		F696B8CF2B32DC35009F4967 /* VideoView */ = {
 			isa = PBXGroup;
 			children = (
+				F6E611362B340D380036FA23 /* VideoView.swift */,
 			);
 			path = VideoView;
 			sourceTree = "<group>";
@@ -236,9 +251,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F604FE372B3279B10049F522 /* ContentView.swift in Sources */,
+				F6E611372B340D380036FA23 /* VideoView.swift in Sources */,
 				F696B8DA2B32DD4B009F4967 /* FrameExtenstion.swift in Sources */,
+				F6E6113B2B340D4B0036FA23 /* AppInfoView.swift in Sources */,
+				F6E611332B340AE10036FA23 /* SplashView.swift in Sources */,
+				F6E611352B340B340036FA23 /* HomeView.swift in Sources */,
 				F604FE352B3279B10049F522 /* AnimalKRApp.swift in Sources */,
 				F696B8DB2B32DD4B009F4967 /* JsonDecodeExtension.swift in Sources */,
+				F6E611392B340D410036FA23 /* GalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
