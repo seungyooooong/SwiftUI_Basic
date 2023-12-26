@@ -19,7 +19,7 @@ struct ContentView: View {
                 
                 ForEach (vm.animals) { animal in
                     NavigationLink {
-                        
+                        DetailView(animal: animal)
                     } label: {
                         AnimalListView(animal: animal)
                             .listRowInsets(EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 0 ))
