@@ -17,7 +17,7 @@ struct DetailFact: View {
                     Text(item)
                 }
             }
-            .tabViewStyle(.page)
+            .tabViewStyle(.page) 
             .frame(minHeight: 148, idealHeight: 168, maxHeight: 180)
         }
     }

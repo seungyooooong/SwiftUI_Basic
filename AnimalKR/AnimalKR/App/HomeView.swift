@@ -17,7 +17,7 @@ struct HomeView: View {
                     Image(systemName: "house.fill")
                     Text("Home")
                 }
-            VideoView()
+            VideoView(vm: vm)
                 .tabItem {
                     Image(systemName: "play.rectangle")
                     Text("Video")
