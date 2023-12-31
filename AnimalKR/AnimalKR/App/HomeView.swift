@@ -22,7 +22,7 @@ struct HomeView: View {
                     Image(systemName: "play.rectangle")
                     Text("Video")
                 }
-            GalleryView()
+            GalleryView(vm: vm)
                 .tabItem {
                     Image(systemName: "photo")
                     Text("Gallery")
