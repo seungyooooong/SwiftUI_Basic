@@ -34,6 +34,8 @@
 		F6E611522B3C02230036FA23 /* VideoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E611512B3C02230036FA23 /* VideoListItem.swift */; };
 		F6E611542B3C03B10036FA23 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E611532B3C03B10036FA23 /* VideoPlayerView.swift */; };
 		F6E611562B3C03E00036FA23 /* YoutubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E611552B3C03E00036FA23 /* YoutubeView.swift */; };
+		F6E611582B42E8640036FA23 /* AppInfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E611572B42E8640036FA23 /* AppInfoLabel.swift */; };
+		F6E6115A2B42E9060036FA23 /* AppInfoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E611592B42E9060036FA23 /* AppInfoContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +67,8 @@
 		F6E611512B3C02230036FA23 /* VideoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItem.swift; sourceTree = "<group>"; };
 		F6E611532B3C03B10036FA23 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		F6E611552B3C03E00036FA23 /* YoutubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeView.swift; sourceTree = "<group>"; };
+		F6E611572B42E8640036FA23 /* AppInfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoLabel.swift; sourceTree = "<group>"; };
+		F6E611592B42E9060036FA23 /* AppInfoContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +181,8 @@
 			isa = PBXGroup;
 			children = (
 				F6E6113A2B340D4B0036FA23 /* AppInfoView.swift */,
+				F6E611592B42E9060036FA23 /* AppInfoContent.swift */,
+				F6E611572B42E8640036FA23 /* AppInfoLabel.swift */,
 			);
 			path = AppInfo;
 			sourceTree = "<group>";
@@ -299,6 +305,7 @@
 			files = (
 				F6E611562B3C03E00036FA23 /* YoutubeView.swift in Sources */,
 				F6E611522B3C02230036FA23 /* VideoListItem.swift in Sources */,
+				F6E611582B42E8640036FA23 /* AppInfoLabel.swift in Sources */,
 				F6E6114A2B38C8060036FA23 /* DetailHead.swift in Sources */,
 				F604FE372B3279B10049F522 /* ContentView.swift in Sources */,
 				F6E6113D2B3418580036FA23 /* AnimalModel.swift in Sources */,
@@ -319,6 +326,7 @@
 				F6E611482B38C6910036FA23 /* DetailView.swift in Sources */,
 				F6E611452B38C5530036FA23 /* CreditView.swift in Sources */,
 				F6E611542B3C03B10036FA23 /* VideoPlayerView.swift in Sources */,
+				F6E6115A2B42E9060036FA23 /* AppInfoContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
