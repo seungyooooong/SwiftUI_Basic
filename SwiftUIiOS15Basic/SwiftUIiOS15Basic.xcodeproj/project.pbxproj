@@ -12,6 +12,7 @@
 		F6E6116F2B4415A50036FA23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E6116E2B4415A50036FA23 /* Preview Assets.xcassets */; };
 		F6E611762B4415DC0036FA23 /* AsnycImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E611752B4415DC0036FA23 /* AsnycImageBasic.swift */; };
 		F6E6117A2B4418A90036FA23 /* BackgroundMaterialBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E611792B4418A90036FA23 /* BackgroundMaterialBasic.swift */; };
+		F6E6117C2B4595070036FA23 /* TextSelectionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E6117B2B4595070036FA23 /* TextSelectionBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		F6E6116E2B4415A50036FA23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6E611752B4415DC0036FA23 /* AsnycImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsnycImageBasic.swift; sourceTree = "<group>"; };
 		F6E611792B4418A90036FA23 /* BackgroundMaterialBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialBasic.swift; sourceTree = "<group>"; };
+		F6E6117B2B4595070036FA23 /* TextSelectionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				F6E611672B4415A40036FA23 /* SwiftUIiOS15BasicApp.swift */,
 				F6E611752B4415DC0036FA23 /* AsnycImageBasic.swift */,
 				F6E611792B4418A90036FA23 /* BackgroundMaterialBasic.swift */,
+				F6E6117B2B4595070036FA23 /* TextSelectionBasic.swift */,
 				F6E6116B2B4415A50036FA23 /* Assets.xcassets */,
 				F6E6116D2B4415A50036FA23 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E6117C2B4595070036FA23 /* TextSelectionBasic.swift in Sources */,
 				F6E611762B4415DC0036FA23 /* AsnycImageBasic.swift in Sources */,
 				F6E611682B4415A40036FA23 /* SwiftUIiOS15BasicApp.swift in Sources */,
 				F6E6117A2B4418A90036FA23 /* BackgroundMaterialBasic.swift in Sources */,
