@@ -13,6 +13,7 @@
 		F6E611762B4415DC0036FA23 /* AsnycImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E611752B4415DC0036FA23 /* AsnycImageBasic.swift */; };
 		F6E6117A2B4418A90036FA23 /* BackgroundMaterialBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E611792B4418A90036FA23 /* BackgroundMaterialBasic.swift */; };
 		F6E6117C2B4595070036FA23 /* TextSelectionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E6117B2B4595070036FA23 /* TextSelectionBasic.swift */; };
+		F6E6117E2B4595720036FA23 /* ButtonStyleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E6117D2B4595720036FA23 /* ButtonStyleBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F6E611752B4415DC0036FA23 /* AsnycImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsnycImageBasic.swift; sourceTree = "<group>"; };
 		F6E611792B4418A90036FA23 /* BackgroundMaterialBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialBasic.swift; sourceTree = "<group>"; };
 		F6E6117B2B4595070036FA23 /* TextSelectionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionBasic.swift; sourceTree = "<group>"; };
+		F6E6117D2B4595720036FA23 /* ButtonStyleBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F6E611752B4415DC0036FA23 /* AsnycImageBasic.swift */,
 				F6E611792B4418A90036FA23 /* BackgroundMaterialBasic.swift */,
 				F6E6117B2B4595070036FA23 /* TextSelectionBasic.swift */,
+				F6E6117D2B4595720036FA23 /* ButtonStyleBasic.swift */,
 				F6E6116B2B4415A50036FA23 /* Assets.xcassets */,
 				F6E6116D2B4415A50036FA23 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E6117E2B4595720036FA23 /* ButtonStyleBasic.swift in Sources */,
 				F6E6117C2B4595070036FA23 /* TextSelectionBasic.swift in Sources */,
 				F6E611762B4415DC0036FA23 /* AsnycImageBasic.swift in Sources */,
 				F6E611682B4415A40036FA23 /* SwiftUIiOS15BasicApp.swift in Sources */,
