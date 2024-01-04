@@ -15,6 +15,7 @@
 		F6E6117C2B4595070036FA23 /* TextSelectionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E6117B2B4595070036FA23 /* TextSelectionBasic.swift */; };
 		F6E6117E2B4595720036FA23 /* ButtonStyleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E6117D2B4595720036FA23 /* ButtonStyleBasic.swift */; };
 		F6E611802B4596CF0036FA23 /* SwipeActionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E6117F2B4596CF0036FA23 /* SwipeActionBasic.swift */; };
+		F6E611822B465E750036FA23 /* BadgeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E611812B465E750036FA23 /* BadgeBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F6E6117B2B4595070036FA23 /* TextSelectionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionBasic.swift; sourceTree = "<group>"; };
 		F6E6117D2B4595720036FA23 /* ButtonStyleBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBasic.swift; sourceTree = "<group>"; };
 		F6E6117F2B4596CF0036FA23 /* SwipeActionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionBasic.swift; sourceTree = "<group>"; };
+		F6E611812B465E750036FA23 /* BadgeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				F6E6117B2B4595070036FA23 /* TextSelectionBasic.swift */,
 				F6E6117D2B4595720036FA23 /* ButtonStyleBasic.swift */,
 				F6E6117F2B4596CF0036FA23 /* SwipeActionBasic.swift */,
+				F6E611812B465E750036FA23 /* BadgeBasic.swift */,
 				F6E6116B2B4415A50036FA23 /* Assets.xcassets */,
 				F6E6116D2B4415A50036FA23 /* Preview Content */,
 			);
@@ -154,6 +157,7 @@
 				F6E6117C2B4595070036FA23 /* TextSelectionBasic.swift in Sources */,
 				F6E611762B4415DC0036FA23 /* AsnycImageBasic.swift in Sources */,
 				F6E611682B4415A40036FA23 /* SwiftUIiOS15BasicApp.swift in Sources */,
+				F6E611822B465E750036FA23 /* BadgeBasic.swift in Sources */,
 				F6E6117A2B4418A90036FA23 /* BackgroundMaterialBasic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
