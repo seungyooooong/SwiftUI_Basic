@@ -8,9 +8,25 @@
 import SwiftUI
 
 struct CustomSheetBasic: View {
+    @State var showSheet: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+            showSheet.toggle()
+        } label: {
+            Text("Show Sheet")
+                .font(.title)
+        }
+        .sheet(isPresented: $showSheet) {
+            Text("Custome Size Sheet")
+                .presentationDetents([.small, .medium, .large])
+                .presentationDragIndicator(.visible)
+        }
     }
+}
+
+extension PresentationDetent {
+    static let small = Self.height(100)
 }
 
 #Preview {
