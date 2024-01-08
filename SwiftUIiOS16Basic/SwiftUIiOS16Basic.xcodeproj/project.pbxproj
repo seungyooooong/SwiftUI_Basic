@@ -13,6 +13,7 @@
 		F6E6119B2B4667700036FA23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E6119A2B4667700036FA23 /* Preview Assets.xcassets */; };
 		F6E611A22B4667B40036FA23 /* ChartBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E611A12B4667B40036FA23 /* ChartBasic.swift */; };
 		F6F2F8F12B49231E005ADCA8 /* CustomSheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F2F8F02B49231E005ADCA8 /* CustomSheetBasic.swift */; };
+		F6F80E402B4BC9D50043FFBE /* ShareLinkBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E3F2B4BC9D50043FFBE /* ShareLinkBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F6E6119A2B4667700036FA23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6E611A12B4667B40036FA23 /* ChartBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartBasic.swift; sourceTree = "<group>"; };
 		F6F2F8F02B49231E005ADCA8 /* CustomSheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSheetBasic.swift; sourceTree = "<group>"; };
+		F6F80E3F2B4BC9D50043FFBE /* ShareLinkBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				F6F2F8F02B49231E005ADCA8 /* CustomSheetBasic.swift */,
 				F6E611972B4667700036FA23 /* Assets.xcassets */,
 				F6E611992B4667700036FA23 /* Preview Content */,
+				F6F80E3F2B4BC9D50043FFBE /* ShareLinkBasic.swift */,
 			);
 			path = SwiftUIiOS16Basic;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				F6E611A22B4667B40036FA23 /* ChartBasic.swift in Sources */,
 				F6E611962B46676F0036FA23 /* ContentView.swift in Sources */,
+				F6F80E402B4BC9D50043FFBE /* ShareLinkBasic.swift in Sources */,
 				F6E611942B46676F0036FA23 /* SwiftUIiOS16BasicApp.swift in Sources */,
 				F6F2F8F12B49231E005ADCA8 /* CustomSheetBasic.swift in Sources */,
 			);
