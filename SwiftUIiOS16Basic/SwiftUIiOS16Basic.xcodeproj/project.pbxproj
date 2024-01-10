@@ -15,6 +15,7 @@
 		F6F2F8F12B49231E005ADCA8 /* CustomSheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F2F8F02B49231E005ADCA8 /* CustomSheetBasic.swift */; };
 		F6F80E402B4BC9D50043FFBE /* ShareLinkBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E3F2B4BC9D50043FFBE /* ShareLinkBasic.swift */; };
 		F6F80E422B4BCBD80043FFBE /* GridRowBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E412B4BCBD80043FFBE /* GridRowBasic.swift */; };
+		F6F80E442B4E91520043FFBE /*  NavigationStackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E432B4E91520043FFBE /*  NavigationStackBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F6F2F8F02B49231E005ADCA8 /* CustomSheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSheetBasic.swift; sourceTree = "<group>"; };
 		F6F80E3F2B4BC9D50043FFBE /* ShareLinkBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkBasic.swift; sourceTree = "<group>"; };
 		F6F80E412B4BCBD80043FFBE /* GridRowBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridRowBasic.swift; sourceTree = "<group>"; };
+		F6F80E432B4E91520043FFBE /*  NavigationStackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " NavigationStackBasic.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F6E611952B46676F0036FA23 /* ContentView.swift */,
 				F6E611A12B4667B40036FA23 /* ChartBasic.swift */,
 				F6F80E412B4BCBD80043FFBE /* GridRowBasic.swift */,
+				F6F80E432B4E91520043FFBE /*  NavigationStackBasic.swift */,
 				F6F2F8F02B49231E005ADCA8 /* CustomSheetBasic.swift */,
 				F6E611972B4667700036FA23 /* Assets.xcassets */,
 				F6E611992B4667700036FA23 /* Preview Content */,
@@ -154,6 +157,7 @@
 				F6F80E402B4BC9D50043FFBE /* ShareLinkBasic.swift in Sources */,
 				F6F80E422B4BCBD80043FFBE /* GridRowBasic.swift in Sources */,
 				F6E611942B46676F0036FA23 /* SwiftUIiOS16BasicApp.swift in Sources */,
+				F6F80E442B4E91520043FFBE /*  NavigationStackBasic.swift in Sources */,
 				F6F2F8F12B49231E005ADCA8 /* CustomSheetBasic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
