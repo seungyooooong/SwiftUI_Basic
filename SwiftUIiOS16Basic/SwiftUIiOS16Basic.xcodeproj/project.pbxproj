@@ -17,6 +17,8 @@
 		F6F80E422B4BCBD80043FFBE /* GridRowBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E412B4BCBD80043FFBE /* GridRowBasic.swift */; };
 		F6F80E442B4E91520043FFBE /*  NavigationStackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E432B4E91520043FFBE /*  NavigationStackBasic.swift */; };
 		F6F80E462B4E93B60043FFBE /* GaugeViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E452B4E93B60043FFBE /* GaugeViewBasic.swift */; };
+		F6F80E482B4F8FEF0043FFBE /* TabGestureWithLocationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E472B4F8FEF0043FFBE /* TabGestureWithLocationBasic.swift */; };
+		F6F80E4A2B4F91780043FFBE /* ViewThatFitBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E492B4F91780043FFBE /* ViewThatFitBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		F6F80E412B4BCBD80043FFBE /* GridRowBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridRowBasic.swift; sourceTree = "<group>"; };
 		F6F80E432B4E91520043FFBE /*  NavigationStackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " NavigationStackBasic.swift"; sourceTree = "<group>"; };
 		F6F80E452B4E93B60043FFBE /* GaugeViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeViewBasic.swift; sourceTree = "<group>"; };
+		F6F80E472B4F8FEF0043FFBE /* TabGestureWithLocationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabGestureWithLocationBasic.swift; sourceTree = "<group>"; };
+		F6F80E492B4F91780043FFBE /* ViewThatFitBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				F6F80E412B4BCBD80043FFBE /* GridRowBasic.swift */,
 				F6F80E432B4E91520043FFBE /*  NavigationStackBasic.swift */,
 				F6F80E452B4E93B60043FFBE /* GaugeViewBasic.swift */,
+				F6F80E472B4F8FEF0043FFBE /* TabGestureWithLocationBasic.swift */,
+				F6F80E492B4F91780043FFBE /* ViewThatFitBasic.swift */,
 				F6F2F8F02B49231E005ADCA8 /* CustomSheetBasic.swift */,
 				F6E611972B4667700036FA23 /* Assets.xcassets */,
 				F6E611992B4667700036FA23 /* Preview Content */,
@@ -155,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F80E482B4F8FEF0043FFBE /* TabGestureWithLocationBasic.swift in Sources */,
 				F6E611A22B4667B40036FA23 /* ChartBasic.swift in Sources */,
 				F6E611962B46676F0036FA23 /* ContentView.swift in Sources */,
 				F6F80E402B4BC9D50043FFBE /* ShareLinkBasic.swift in Sources */,
@@ -162,6 +169,7 @@
 				F6E611942B46676F0036FA23 /* SwiftUIiOS16BasicApp.swift in Sources */,
 				F6F80E462B4E93B60043FFBE /* GaugeViewBasic.swift in Sources */,
 				F6F80E442B4E91520043FFBE /*  NavigationStackBasic.swift in Sources */,
+				F6F80E4A2B4F91780043FFBE /* ViewThatFitBasic.swift in Sources */,
 				F6F2F8F12B49231E005ADCA8 /* CustomSheetBasic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
