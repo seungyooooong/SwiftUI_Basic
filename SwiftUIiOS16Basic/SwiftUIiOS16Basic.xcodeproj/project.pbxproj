@@ -19,6 +19,7 @@
 		F6F80E462B4E93B60043FFBE /* GaugeViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E452B4E93B60043FFBE /* GaugeViewBasic.swift */; };
 		F6F80E482B4F8FEF0043FFBE /* TabGestureWithLocationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E472B4F8FEF0043FFBE /* TabGestureWithLocationBasic.swift */; };
 		F6F80E4A2B4F91780043FFBE /* ViewThatFitBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E492B4F91780043FFBE /* ViewThatFitBasic.swift */; };
+		F6F80E502B512D260043FFBE /* LabeledContentBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E4F2B512D260043FFBE /* LabeledContentBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		F6F80E452B4E93B60043FFBE /* GaugeViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeViewBasic.swift; sourceTree = "<group>"; };
 		F6F80E472B4F8FEF0043FFBE /* TabGestureWithLocationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabGestureWithLocationBasic.swift; sourceTree = "<group>"; };
 		F6F80E492B4F91780043FFBE /* ViewThatFitBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitBasic.swift; sourceTree = "<group>"; };
+		F6F80E4F2B512D260043FFBE /* LabeledContentBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledContentBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				F6F80E452B4E93B60043FFBE /* GaugeViewBasic.swift */,
 				F6F80E472B4F8FEF0043FFBE /* TabGestureWithLocationBasic.swift */,
 				F6F80E492B4F91780043FFBE /* ViewThatFitBasic.swift */,
+				F6F80E4F2B512D260043FFBE /* LabeledContentBasic.swift */,
 				F6F2F8F02B49231E005ADCA8 /* CustomSheetBasic.swift */,
 				F6E611972B4667700036FA23 /* Assets.xcassets */,
 				F6E611992B4667700036FA23 /* Preview Content */,
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F80E502B512D260043FFBE /* LabeledContentBasic.swift in Sources */,
 				F6F80E482B4F8FEF0043FFBE /* TabGestureWithLocationBasic.swift in Sources */,
 				F6E611A22B4667B40036FA23 /* ChartBasic.swift in Sources */,
 				F6E611962B46676F0036FA23 /* ContentView.swift in Sources */,
