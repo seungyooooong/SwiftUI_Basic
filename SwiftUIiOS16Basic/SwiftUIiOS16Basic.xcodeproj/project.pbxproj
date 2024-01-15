@@ -22,6 +22,7 @@
 		F6F80E502B512D260043FFBE /* LabeledContentBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E4F2B512D260043FFBE /* LabeledContentBasic.swift */; };
 		F6F80E522B512FEA0043FFBE /* MultiDatePickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E512B512FEA0043FFBE /* MultiDatePickerBasic.swift */; };
 		F6F80E542B541F770043FFBE /* NavigationLinkBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E532B541F770043FFBE /* NavigationLinkBasic.swift */; };
+		F6F80E562B555C0E0043FFBE /* NavigationSplitViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E552B555C0E0043FFBE /* NavigationSplitViewBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		F6F80E4F2B512D260043FFBE /* LabeledContentBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledContentBasic.swift; sourceTree = "<group>"; };
 		F6F80E512B512FEA0043FFBE /* MultiDatePickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerBasic.swift; sourceTree = "<group>"; };
 		F6F80E532B541F770043FFBE /* NavigationLinkBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkBasic.swift; sourceTree = "<group>"; };
+		F6F80E552B555C0E0043FFBE /* NavigationSplitViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				F6F80E4F2B512D260043FFBE /* LabeledContentBasic.swift */,
 				F6F80E512B512FEA0043FFBE /* MultiDatePickerBasic.swift */,
 				F6F80E532B541F770043FFBE /* NavigationLinkBasic.swift */,
+				F6F80E552B555C0E0043FFBE /* NavigationSplitViewBasic.swift */,
 				F6F2F8F02B49231E005ADCA8 /* CustomSheetBasic.swift */,
 				F6E611972B4667700036FA23 /* Assets.xcassets */,
 				F6E611992B4667700036FA23 /* Preview Content */,
@@ -174,6 +177,7 @@
 				F6F80E482B4F8FEF0043FFBE /* TabGestureWithLocationBasic.swift in Sources */,
 				F6E611A22B4667B40036FA23 /* ChartBasic.swift in Sources */,
 				F6E611962B46676F0036FA23 /* ContentView.swift in Sources */,
+				F6F80E562B555C0E0043FFBE /* NavigationSplitViewBasic.swift in Sources */,
 				F6F80E402B4BC9D50043FFBE /* ShareLinkBasic.swift in Sources */,
 				F6F80E422B4BCBD80043FFBE /* GridRowBasic.swift in Sources */,
 				F6F80E522B512FEA0043FFBE /* MultiDatePickerBasic.swift in Sources */,
