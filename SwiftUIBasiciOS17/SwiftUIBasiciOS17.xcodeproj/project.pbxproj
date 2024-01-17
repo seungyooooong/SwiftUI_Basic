@@ -12,6 +12,7 @@
 		F6F80E682B568E1F0043FFBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F80E672B568E1F0043FFBE /* Assets.xcassets */; };
 		F6F80E6B2B568E1F0043FFBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F80E6A2B568E1F0043FFBE /* Preview Assets.xcassets */; };
 		F6F80E722B568E490043FFBE /* SectorMarkBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E712B568E490043FFBE /* SectorMarkBasic.swift */; };
+		F6F80E742B57EAF60043FFBE /* ContentUnavailableViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E732B57EAF60043FFBE /* ContentUnavailableViewBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		F6F80E672B568E1F0043FFBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6F80E6A2B568E1F0043FFBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6F80E712B568E490043FFBE /* SectorMarkBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorMarkBasic.swift; sourceTree = "<group>"; };
+		F6F80E732B57EAF60043FFBE /* ContentUnavailableViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableViewBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				F6F80E632B568E1E0043FFBE /* SwiftUIBasiciOS17App.swift */,
 				F6F80E652B568E1E0043FFBE /* ContentView.swift */,
 				F6F80E712B568E490043FFBE /* SectorMarkBasic.swift */,
+				F6F80E732B57EAF60043FFBE /* ContentUnavailableViewBasic.swift */,
 				F6F80E672B568E1F0043FFBE /* Assets.xcassets */,
 				F6F80E692B568E1F0043FFBE /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F80E742B57EAF60043FFBE /* ContentUnavailableViewBasic.swift in Sources */,
 				F6F80E662B568E1E0043FFBE /* ContentView.swift in Sources */,
 				F6F80E722B568E490043FFBE /* SectorMarkBasic.swift in Sources */,
 				F6F80E642B568E1E0043FFBE /* SwiftUIBasiciOS17App.swift in Sources */,
