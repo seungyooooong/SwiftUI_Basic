@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6409E1B2B5A43EF007820D0 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6409E1A2B5A43EF007820D0 /* UserViewModel.swift */; };
+		F6409E1D2B5A4506007820D0 /* ObservationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6409E1C2B5A4506007820D0 /* ObservationBasic.swift */; };
 		F6F80E642B568E1E0043FFBE /* SwiftUIBasiciOS17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E632B568E1E0043FFBE /* SwiftUIBasiciOS17App.swift */; };
 		F6F80E662B568E1E0043FFBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F80E652B568E1E0043FFBE /* ContentView.swift */; };
 		F6F80E682B568E1F0043FFBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F80E672B568E1F0043FFBE /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F6409E1A2B5A43EF007820D0 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		F6409E1C2B5A4506007820D0 /* ObservationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationBasic.swift; sourceTree = "<group>"; };
 		F6F80E602B568E1E0043FFBE /* SwiftUIBasiciOS17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasiciOS17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F80E632B568E1E0043FFBE /* SwiftUIBasiciOS17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasiciOS17App.swift; sourceTree = "<group>"; };
 		F6F80E652B568E1E0043FFBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 				F6F80E732B57EAF60043FFBE /* ContentUnavailableViewBasic.swift */,
 				F6F80E752B57EF840043FFBE /* SymbolEffectBasic.swift */,
 				F6F80E772B5A3F500043FFBE /* ScrollViewBasic.swift */,
+				F6409E1A2B5A43EF007820D0 /* UserViewModel.swift */,
+				F6409E1C2B5A4506007820D0 /* ObservationBasic.swift */,
 				F6F80E672B568E1F0043FFBE /* Assets.xcassets */,
 				F6F80E692B568E1F0043FFBE /* Preview Content */,
 			);
@@ -154,7 +160,9 @@
 				F6F80E762B57EF840043FFBE /* SymbolEffectBasic.swift in Sources */,
 				F6F80E662B568E1E0043FFBE /* ContentView.swift in Sources */,
 				F6F80E722B568E490043FFBE /* SectorMarkBasic.swift in Sources */,
+				F6409E1B2B5A43EF007820D0 /* UserViewModel.swift in Sources */,
 				F6F80E642B568E1E0043FFBE /* SwiftUIBasiciOS17App.swift in Sources */,
+				F6409E1D2B5A4506007820D0 /* ObservationBasic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
